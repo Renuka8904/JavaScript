@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="showMessage()">Submit</button>
+
+    <button ondblclick="show()">Double Click Me</button>
+
+    <button onclick="console.log('Button was clicked');alert('hello');">click me</button>
+
+    <div id="div1" onmouseover="console.log('inside the box')">This is a box.</div>
+
+    <div id="div2" onmouseout="console.log('outside the box')">On Mouse Out</div>
+
+   <input type="text" onkeydown="pressed()">
+
+   <input type="text" onkeyup="released()">
+
+   <select name="course" id="course" onchange="change()">
+        <option value="java">Java</option>
+        <option value="javaScript">Javascript</option>
+        <option value="python">Python</option>
+        <option value="c++">C++</option>
+   </select>
+
+  
+   <button id="btn1">Register Button</button>
+<br><br>
+   <div id="box">Event handling in JS file </div>
+<br>
+   <div id="box1">Event Object</div>
+<br>
+   <div id="box2">Event Object</div>
+
+    <script src="event.js"></script>
+</body>
+</html>
